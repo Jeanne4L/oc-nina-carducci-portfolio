@@ -84,17 +84,12 @@ nav a {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	/* width: 60%; */
     font-size: 1rem;
 }
 #about-me p {
-	width: 80%;
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -149,7 +144,7 @@ nav a {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+    font-size: 2rem;
 }
 .quote__author {
 	font-family: Spectral;
@@ -204,7 +199,8 @@ nav a {
 	display: flex;
 }
 #contact .picture.right {
-    text-align: right;
+    display: flex;
+    align-items: center;
     margin-right: 0;
 }
 .picture.right::before {
