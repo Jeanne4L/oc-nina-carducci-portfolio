@@ -30,60 +30,72 @@
             <script type="application/ld+json">
                 {
                     "@context": "https://schema.org",
-                    "@type": "Person",
-                    "name": "Nina Carducci",
-                    "description": "Photographe freelance à Bordeaux et en Île-de-France, je réponds au téléphone du lundi au vendredi de 10h à 19h",
-                    "telephone": "05.56.67.78.89",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Bordeaux",
-                        "postalCode": "33200",
-                        "streetAddress": "68 avenue Alsace-Lorraine"
-                    },
-                    "image": "./assets/images/nina-portrait-photo.webp",
-                    "jobTitle": "Photographe",
-                    "sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr",
-                    "makesOffer" : [
-                        {
-                            "@type" :"Offer",
-                            "priceSpecification" : {
-                                "@type" : "UnitPriceSpecification",
-                                "priceCurrency" : "EUR",
-                                "price" : "350" },
-                            "itemOffered" : {
-                                "@type" : "Service",
-                                "name" : "Shooting photo",
-                                "description" : "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos. Le prix est à la demi-journée et inclut le matériel et le déplacement."
-                            }
+                    "@type": "Service",
+                    "serviceType": "Photo",
+                    "provider": {
+                        "@type": "LocalBusiness",
+                        "name": "Nina Carducci",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "68 avenue Alsace-Lorraine",
+                            "addressLocality": "Bordeaux",
+                            "addressRegion": "Nouvelle-Aquitaine",
+                            "postalCode": "33200",
+                            "addressCountry": "FR"
                         },
-                        {
-                            "@type" :"Offer",
-                            "priceSpecification" : {
-                                "@type" : "UnitPriceSpecification",
-                                "priceCurrency" : "EUR",
-                                "price" : "50" },
-                            "itemOffered" : {
-                                "@type" : "Service",
-                                "name" : "Retouches photo",
-                                "description" : "Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficiez d’un rendu optimal pour vos publications. Le prix est pour une photo et comprend 2 AR."
+                        "areaServed": {
+                            "@type": "Region",
+                            "name": "Île-de-France"
+                        },   
+                        "image": "./assets/images/nina-portrait-photo.webp",
+                        "url": "https://jeanne4l.github.io/oc-nina-carducci-portfolio/",
+                        "sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr",
+                        "telephone": "05.56.67.78.89",
+                        "openingHours": "Mo-Fr 10:00-19:00",
+                        "priceRange": "$$$",
+                        "priceCurrency": "EUR",
+                        "makesOffer" : [
+                            {
+                                "@type" :"Offer",
+                                "priceSpecification" : {
+                                    "@type" : "UnitPriceSpecification",
+                                    "priceCurrency" : "EUR",
+                                    "price" : "350" },
+                                "itemOffered" : {
+                                    "@type" : "Service",
+                                    "name" : "Shooting photo",
+                                    "description" : "Anniversaire, naissance, mariage... je me déplace en Île-de-France pour capturer vos moments les plus précieux et les rendre éternels. Le prix est à la demi-journée et inclut le matériel et le déplacement."
+                                }
+                            },
+                            {
+                                "@type" :"Offer",
+                                "priceSpecification" : {
+                                    "@type" : "UnitPriceSpecification",
+                                    "priceCurrency" : "EUR",
+                                    "price" : "50" },
+                                "itemOffered" : {
+                                    "@type" : "Service",
+                                    "name" : "Retouches photo",
+                                    "description" : "Des retouches professionnelles, telles que l'application d'un filtre ou la suppression d'un élément, sublimeront vos photos et les rendront encore plus captivantes lorsque vous les partagerez sur les réseaux sociaux. Le prix est pour une photo et comprend 2 AR."
+                                }
+                            },
+                            {
+                                "@type" :"Offer",
+                                "priceSpecification" : {
+                                    "@type" : "UnitPriceSpecification",
+                                    "priceCurrency" : "EUR",
+                                    "price" : "400" },
+                                "itemOffered" : {
+                                    "@type" : "Service",
+                                    "name" : "Album photo",
+                                    "description" : "Imprimer vos photos est un moyen sûr de les conserver dans le temps. Créez un album personnalisé à offrir ou à partager avec vos proches. Le prix est pour un album A4 contenant 30 pages recto-verso."
+                                }
                             }
-                        },
-                        {
-                            "@type" :"Offer",
-                            "priceSpecification" : {
-                                "@type" : "UnitPriceSpecification",
-                                "priceCurrency" : "EUR",
-                                "price" : "400" },
-                            "itemOffered" : {
-                                "@type" : "Service",
-                                "name" : "Album photo",
-                                "description" : "Partagez avec vos proches et vos clients les photos des moments passés ensemble à travers un album photo personnalisé. Le prix est pour un album A4 contenant 30 pages recto-verso."
-                            }
-                        }
-                    ]
+                        ]
+                    }
                 }
             </script>
-        
+            
         <title>Nina Carducci - Photographe</title>
     </head>
     <body>
@@ -205,7 +217,7 @@
                 <div class="service">
                     <div class="service__description">
                         <h3>Album photos</h3>
-                        <p>Vous souhaitez des photos qui ne restent pas éphémères ? Imprimez-les et créez votre album personnalisé. À offrir ou à partager avec vos proches</p>
+                        <p>Imprimer vos photos est un moyen sûr de les conserver dans le temps. Créez un album personnalisé à offrir ou à partager avec vos proches.</p>
                     </div>
                     <div class="service__price">
                         <h4>400€ album A4</h4>
