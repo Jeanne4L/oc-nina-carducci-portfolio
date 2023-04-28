@@ -7,17 +7,6 @@ body {
 	font-style: normal;
 }
 
-/* .overlay {
-    display: none;
-    position: fixed;
-    z-index: 1100;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: rgba(0,0,0, 0.2);
-} */
-
 header {
 	background-color: white;
 	position: sticky;
@@ -104,7 +93,7 @@ nav a {
 
 .title{
 	text-align: center;
-	padding-block: 2em;
+	padding-block: 2em 0;
 }
 .gallery .nav {
 	justify-content: center;
@@ -128,16 +117,10 @@ nav a {
 	padding-bottom: 100%;
 
 }
-/* .gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-} */
 .gallery-item {
 	position: absolute;
 	width: 100%;
     height: 100%;
-	/* height: 350px; */
 	object-fit: cover;
 	padding: .5em;
 }
@@ -150,16 +133,6 @@ nav a {
 	display: flex;
 	font-size: 24px;
 }
-/* .modal {
-    position: fixed;
-    z-index: 1000;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
-    background-color: white;
-} */
 
 .quote {
 	font-family: 'Spectral';
@@ -355,6 +328,10 @@ input[type="submit"] {
 		width: 100%;
 		padding: 0;
 	}
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
 	header nav li {
 		flex: 1;
 		padding-block: 1em;
@@ -374,10 +351,22 @@ input[type="submit"] {
 	.service {
 		max-width: 90%;
 	}
+    .quote {
+        width: 90%;
+    }
+    .quote__text {
+        font-size: 1.5rem;
+    }
 	#about, #contact {
 		padding-inline: 2em;
 		padding-block: 2em;
 	}
+    .about-me__introduction {
+        font-size: 1.1rem;
+    }
+    #about-me p {
+        font-size: 1rem;
+    }
 	form {
 		width: 100%;
 	}
@@ -386,4 +375,3 @@ input[type="submit"] {
         text-align: center;
 	}
 }
-
