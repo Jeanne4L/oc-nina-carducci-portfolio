@@ -44,11 +44,6 @@ nav a {
     height: 20px;
 }
 
-/* .w-100 {
-    width: 1920px!important;
-    height: 880px!important;
-} */
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -137,6 +132,10 @@ nav a {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
+}
+.modal-body img {
+    width: 467px;
+    height: auto;
 }
 
 .quote {
