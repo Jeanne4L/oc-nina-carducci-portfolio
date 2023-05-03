@@ -44,10 +44,10 @@ nav a {
     height: 20px;
 }
 
-.w-100 {
+/* .w-100 {
     width: 1920px!important;
     height: 880px!important;
-}
+} */
 
 #about {
 	display: flex;
