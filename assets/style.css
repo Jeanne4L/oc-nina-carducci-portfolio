@@ -119,10 +119,12 @@ nav a {
 }
 .gallery-item {
 	position: absolute;
-	width: 440px;
-    height: 440px;
 	object-fit: cover;
 	padding: .5em;
+}
+.img-fluid {
+	width: 440px;
+    height: 440px;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -133,7 +135,7 @@ nav a {
 	display: flex;
 	font-size: 24px;
 }
-.gallery-item .img-fluid {
+.lightboxImage  {
     width: 467px;
     height: auto;
 }
@@ -253,7 +255,7 @@ input[type="submit"] {
 }
 
 @media( max-width: 1400px) {
-    .gallery-item {
+    .img-fluid {
         width: 380px;
         height: 380px;
     }
@@ -273,7 +275,7 @@ input[type="submit"] {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
-    .gallery-item {
+    .img-fluid {
         width: 320px;
         height: 320px;
     }
@@ -334,14 +336,14 @@ input[type="submit"] {
 	}
 }
 @media(max-width: 992px) {
-    .gallery-item {
+    .img-fluid {
         width: 240px;
         height: 240px;
     }
 }
 
 @media(max-width: 768px) {
-    .gallery-item {
+    .img-fluid {
         width: 270px;
         height: 270px;
     }
@@ -405,7 +407,7 @@ input[type="submit"] {
 }
 
 @media (max-width: 575px) {
-    .gallery-item {
+    .img-fluid {
         width: 100%;
         height: 100%;
     }
