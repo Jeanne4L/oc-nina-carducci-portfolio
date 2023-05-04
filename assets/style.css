@@ -5,6 +5,7 @@ body {
 * {
 	font-family: 'Inter';
 	font-style: normal;
+    box-sizing: border-box;
 }
 a {
     color: currentColor;
@@ -93,6 +94,10 @@ nav a {
 }
 #about-me p {
 	font-size: 14px;
+}
+
+.carousel {
+    aspect-ratio: 2.16 / 1;
 }
 
 .title{
