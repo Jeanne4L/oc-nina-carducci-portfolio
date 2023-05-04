@@ -131,7 +131,7 @@ nav a {
 	object-fit: cover;
 	padding: .5em;
 }
-.img-fluid {
+.img-fluid:not(.lightboxImage) {
 	width: 440px;
     height: 440px;
 }
@@ -279,7 +279,7 @@ footer {
 }
 
 @media( max-width: 1400px) {
-    .img-fluid {
+    .img-fluid:not(.lightboxImage) {
         width: 380px;
         height: 380px;
     }
@@ -299,7 +299,7 @@ footer {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
-    .img-fluid {
+    .img-fluid:not(.lightboxImage) {
         width: 320px;
         height: 320px;
     }
@@ -360,14 +360,14 @@ footer {
 	}
 }
 @media(max-width: 992px) {
-    .img-fluid {
+    .img-fluid:not(.lightboxImage) {
         width: 240px;
         height: 240px;
     }
 }
 
 @media(max-width: 768px) {
-    .img-fluid {
+    .img-fluid:not(.lightboxImage) {
         width: 270px;
         height: 270px;
     }
@@ -429,7 +429,7 @@ footer {
 }
 
 @media (max-width: 575px) {
-    .img-fluid {
+    .img-fluid:not(.lightboxImage) {
         width: 100%;
         height: 100%;
     }
