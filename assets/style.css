@@ -133,7 +133,7 @@ nav a {
 	display: flex;
 	font-size: 24px;
 }
-.modal-body img {
+.gallery-item .img-fluid {
     width: 467px;
     height: auto;
 }

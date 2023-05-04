@@ -19,8 +19,8 @@
             <meta property="og:image" content="https://jeanne4l.github.io/oc-nina-carducci-portfolio/assets/images/nina-portrait-photo.webp">
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-            <!-- <link rel="stylesheet" href="./assets/style.min.css"> -->
-            <link rel="stylesheet" href="./assets/style.css">
+            <link rel="stylesheet" href="./assets/style.min.css">
+            <!-- <link rel="stylesheet" href="./assets/style.css"> -->
 
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -126,7 +126,7 @@
         </header>
 
         <!-- CARROUSEL -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -134,29 +134,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <picture>
-                        <source media="(max-width: 750px)" srcset="./assets/images/slider/person-walking-photo-mobile.webp 500w" sizes="100vw">
-                        <source media="(max-width: 1200px)" srcset="./assets/images/slider/person-walking-photo-tablet.webp 1000w" sizes="100vw">
-                        <img src="./assets/images/slider/person-walking-photo.webp" alt="Photo en plongée d'une personne en costume sur bandes noires et blanches" class="d-block w-100">
-                     </picture>
-
-                    <!-- <img src="./assets/images/slider/person-walking-photo.webp" srcset="./assets/images/slider/person-walking-photo-tablet.webp 1000w, ./assets/images/slider/person-walking-photo-mobile.webp 600w" sizes="100vw" class="d-block w-100" alt="Photo en plongée d'une personne en costume sur bandes noires et blanches"> -->
+                    <img src="./assets/images/slider/person-walking-photo.webp" srcset="./assets/images/slider/person-walking-photo.webp 1920w, ./assets/images/slider/person-walking-photo-tablet.webp 1000w, ./assets/images/slider/person-walking-photo-mobile.webp 500w" sizes="(min-width: 320px) 100vw" class="d-block w-100" alt="Photo en plongée d'une personne en costume sur bandes noires et blanches">
                 </div>
                 <div class="carousel-item">
-                    <picture>
-                        <source media="(max-width: 750px)" srcset="./assets/images/slider/festival-photo-mobile.webp 500w" sizes="100vw">
-                        <source media="(max-width: 1200px)" srcset="./assets/images/slider/festival-photo-tablet.webp 1000w" sizes="100vw">
-                        <img src="./assets/images/slider/festival-photo.webp" alt="Photo en immersion du public à un festival" class="d-block w-100" loading="lazy">
-                     </picture>
-                    <!-- <img src="./assets/images/slider/festival-photo.webp" srcset="./assets/images/slider/festival-photo-tablet.webp 1000w, ./assets/images/slider/festival-photo-mobile.webp 600w" sizes="100vw" class="d-block w-100" alt="Photo en immersion du public à un festival" loading="lazy"> -->
+                    <img src="./assets/images/slider/festival-photo.webp" srcset="./assets/images/slider/festival-photo.webp 1920w, ./assets/images/slider/festival-photo-tablet.webp 1000w, ./assets/images/slider/festival-photo-mobile.webp 500w" sizes="(min-width: 320px) 100vw" class="d-block w-100" alt="Photo en immersion du public à un festival" loading="lazy">
                 </div>
                 <div class="carousel-item">
-                    <picture>
-                        <source media="(max-width: 750px)" srcset="./assets/images/slider/wedding-photo-mobile.webp 500w" sizes="100vw">
-                        <source media="(max-width: 1200px)" srcset="./assets/images/slider/wedding-photo-tablet.webp 1000w" sizes="100vw">
-                        <img src="./assets/images/slider/wedding-photo.webp" alt="Photo du marié qui embrasse la mariée" class="d-block w-100" loading="lazy">
-                     </picture>
-                    <!-- <img src="./assets/images/slider/wedding-photo.webp" srcset="./assets/images/slider/wedding-photo-tablet.webp 1000w, ./assets/images/slider/wedding-photo-mobile.webp 600w" sizes="100vw" class="d-block w-100" alt="Photo du marié qui embrasse la mariée" loading="lazy"> -->
+                    <img src="./assets/images/slider/wedding-photo.webp" srcset="./assets/images/slider/wedding-photo.webp 1920w, ./assets/images/slider/wedding-photo-tablet.webp 1000w, ./assets/images/slider/wedding-photo-mobile.webp 500w" sizes="(min-width: 320px) 100vw" class="d-block w-100" alt="Photo du marié qui embrasse la mariée" loading="lazy">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -282,7 +266,6 @@
 
         <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="./assets/maugallery.min.js"></script>
         <script src="./assets/scripts.min.js"></script>
     </body>
 </html>
