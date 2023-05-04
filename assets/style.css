@@ -266,6 +266,7 @@ footer {
 }
 .social-link--footer img {
     width: 25px;
+    height:25px;
 }
 .icon--border {
     border: solid 1.5px black;
