@@ -90,10 +90,7 @@ nav a {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-    font-size: 1rem;
-}
-#about-me p {
-	font-size: 14px;
+    margin-bottom: 0.5rem;
 }
 
 .carousel {
@@ -201,6 +198,9 @@ nav a {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+.service__price p {
+    font-size: 1.5rem;
 }
 
 #contact {
